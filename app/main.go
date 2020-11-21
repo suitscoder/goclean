@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	base "github.com/suitscoder/goclean/app/service/Base"
+)
 
-func main(){
-	fmt.Println("Hello world")
+func main() {
+	fmt.Println(base.Health())
 }
